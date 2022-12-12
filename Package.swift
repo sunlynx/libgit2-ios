@@ -20,23 +20,23 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "libgit2",
-			url: "https://github.com/mfcollins3/libgit2-ios/releases/download/1.5.0/libgit2.zip",
-			checksum: "cb06393e43fe89496fa154e661ecf5218c5fd483f6b719720b8b9c6a88f263a6"
+			url: "https://github.com/sunlynx/libgit2-ios/releases/download/v1.5.0/libgit2.zip",
+			checksum: "f5328b45e50e198a596fb706e44631123404ee6a9c36d6ca5e479defc7af4409"
 		),
 		.binaryTarget(
 			name: "libssh2",
-			url: "https://github.com/mfcollins3/libgit2-ios/releases/download/1.5.0/libssh2.zip",
-			checksum: "c75b8a5202fd9f7cbe173a25507e853750f286a634f665692912f370581e4c00"
+			url: "https://github.com/sunlynx/libgit2-ios/releases/download/v1.5.0/libssh2.zip",
+			checksum: "763de74ab72ecfc42e51acd082739761bf1e61fd13a2eba0d80d3445beed155d"
 		),
 		.binaryTarget(
 			name: "libssl",
-			url: "https://github.com/mfcollins3/libgit2-ios/releases/download/1.5.0/libssl.zip",
-			checksum: "130e5841e91f8bce647a1df75bef84a1014a54a885205ccf4a7ffc3ad42bc2d5"
+			url: "https://github.com/sunlynx/libgit2-ios/releases/download/v1.5.0/libssl.zip",
+			checksum: "cf00e4c4bdfca990a6c4e21da919a9524c949a6e6140c259689a719ec93951cd"
 		),
 		.binaryTarget(
 			name: "libcrypto",
-			url: "https://github.com/mfcollins3/libgit2-ios/releases/download/1.5.0/libcrypto.zip",
-			checksum: "325a78943fb9bf3d8e9b02eb1aa00254ca575fb426be0c47c90324fcf4f37359"
+			url: "https://github.com/sunlynx/libgit2-ios/releases/download/v1.5.0/libcrypto.zip",
+			checksum: "8a2fae9b88d3184267a59c61aef5bfff6675476bfda699f6885cb336bacbd48d"
 		),
 	]
 )
